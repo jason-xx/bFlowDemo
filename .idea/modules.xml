@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bFlowDemo.iml" filepath="$PROJECT_DIR$/bFlowDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bfservice/bfservice.iml" filepath="$PROJECT_DIR$/bfservice/bfservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/bfweb/bfweb.iml" filepath="$PROJECT_DIR$/bfweb/bfweb.iml" />
     </modules>
   </component>
