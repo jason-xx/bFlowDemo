@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41c8334c-dbd2-4e27-9fe9-b0d7b9aec630" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bfservice/src/main/java/bfdemo/bfservice/datasource/DataSourceMysqlConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bfservice/src/main/java/bfdemo/bfservice/datasource/DataSourceOracleConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bfservice/pom.xml" afterPath="$PROJECT_DIR$/bfservice/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bfservice/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/bfservice/src/main/resources/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/bfservice/target/" />
@@ -23,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/bfservice/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="27" column="55" lean-forward="true" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+              <caret line="27" column="55" lean-forward="false" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -39,21 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bfservice/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="80">
+              <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataSourceMysqlConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DataSourceMysqlConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bfservice/src/main/java/bfdemo/bfservice/datasource/DataSourceMysqlConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,11 +81,11 @@
         <option value="$PROJECT_DIR$/sql.sql" />
         <option value="$PROJECT_DIR$/oracle.sql" />
         <option value="$PROJECT_DIR$/mysql.sql" />
-        <option value="$PROJECT_DIR$/bfservice/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/bfservice/src/main/java/bfdemo/bfservice/datasource/DataSource2Config.java" />
         <option value="$PROJECT_DIR$/bfservice/pom.xml" />
         <option value="$PROJECT_DIR$/bfservice/src/main/java/bfdemo/bfservice/datasource/DataSourceMysqlConfig.java" />
         <option value="$PROJECT_DIR$/bfservice/src/main/java/bfdemo/bfservice/datasource/DataSourceOracleConfig.java" />
+        <option value="$PROJECT_DIR$/bfservice/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -105,6 +101,9 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/bfweb/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -177,17 +176,18 @@
               <item name="bfservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bfservice" type="462c0819:PsiDirectoryNode" />
-              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bFlowDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="bFlowDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="bfservice" type="462c0819:PsiDirectoryNode" />
+              <item name="bfweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bFlowDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bFlowDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="bfweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,12 +325,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557237332119</updated>
       <workItem from="1557237333576" duration="2618000" />
-      <workItem from="1557564564918" duration="6637000" />
+      <workItem from="1557564564918" duration="7972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9255000" />
+    <option name="totallyTimeSpent" value="10590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="977" extended-state="0" />
@@ -408,18 +408,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bfservice/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bfservice/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="27" column="55" lean-forward="true" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+          <caret line="27" column="55" lean-forward="false" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -451,10 +443,18 @@
     <entry file="file://$PROJECT_DIR$/bfservice/src/main/java/bfdemo/bfservice/datasource/DataSourceMysqlConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bfservice/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
